@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #5F5F5F;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    position: relative;
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-title {
+    font-size: 30px;
+    color: white;
+    margin-left: auto; 
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.top-up-guide {
+    margin-bottom: 20px;
+}
+
+.top-up-guide h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.top-up-guide ol {
+    list-style-position: inside;
+}
+
+.rating-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.rating img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.main-content {
+    width: 75%;
+    padding: 20px;
+    background-color: #5F5F5F;
+    position: relative;
+}
+
+.slider {
+    position: relative;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.slider img {
+    width: 50%;
+}
+
+.pubg-mobile-container {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.pubg-logo {
+    width: 100px;
+    border-radius: 10px; 
+}
+
+.pubg-mobile-container p {
+    margin-top: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+footer .instagram img {
+    width: 30px;
+}
